@@ -67,3 +67,17 @@ h5 {
 .section {
     min-height: 100vh;
 }
+
+.menu{
+    background-color: var(--white-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+}
