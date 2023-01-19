@@ -2,15 +2,17 @@
     background-image: url('../img/main-bg.svg');
     background-size: cover;
     background-position: center center;
-    color: var(--white-color)
+    color: var(--white-color);
 }
-
-/* main content vai servir para sustentar algum componente */
 
 .main-content {
     max-width: 120rem;
     margin: 0 auto ;
     padding: var(--gap);
+}
+
+.white-bg {
+    background: var(--white-color);
 }
 
 .section {
