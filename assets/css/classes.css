@@ -5,18 +5,20 @@
     color: var(--white-color);
 }
 
-.main-content {
-    max-width: 120rem;
-    margin: 0 auto ;
-    padding: var(--gap);
-}
-
 .white-bg {
     background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
 }
 
 .section {
     min-height: 100vh;
+    
 }
 
 .menu-spacing{
