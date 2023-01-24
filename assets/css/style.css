@@ -1,6 +1,6 @@
 .intro-content {
     position: relative;
-    top: -8rem;
+    /*top: 8rem;*/
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -32,6 +32,10 @@
     justify-content: center;
     min-height: 100vh;
     text-align: center;
+}
+
+.h2-page2{
+    padding-top: 5rem;
 }
 
 .teste{
