@@ -75,5 +75,20 @@
     top: -4rem;
     left: -2rem;
     transform: rotate(5deg);
+}
 
+.galeria-imagem{
+    width: 100%;
+    min-width: 36rem;
+    min-height: 36rem;
+    overflow: hidden;
+}
+
+.galeria-imagem img {
+    transition: all 300ms ease-in-out;
+
+}
+
+.galeria-imagem img:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
