@@ -92,3 +92,7 @@
 .galeria-imagem img:hover{
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
+
+.galeria-content{
+    padding: 4rem;
+}
