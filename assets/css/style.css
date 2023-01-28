@@ -98,3 +98,79 @@
 .galeria-content{
     padding: 4rem;
 }
+
+.formulario-contato{
+    grid-column: span 2;
+}
+
+.formulario-contato .formulario-grid{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.formulario-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.grupo-formulario{
+    flex: 1 1 320px;
+}
+
+.grupo-formulario label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.grupo-formulario input,
+.grupo-formulario textarea {
+    border: none;
+    background: var(--white-color);
+    padding: 1,5rem 2rem;
+    width: 100%;
+    font-size: 3rem;
+    outline: none;
+}
+
+.grupo-formulario input:focus,
+.grupo-formulario textarea:focus{
+    box-shadow: 0 0 10px 2px var(--secundary-color);
+}
+
+.grupo-formulario button {
+    border: 0.5rem solid var(--white-color);
+    background: none;
+    color:var(--white-color);
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.grupo-formulario button:hover{
+    background:var(--white-color);
+    color:var(--primary-color);
+
+}
+
+.grupo-formulario ::placeholder{
+    color: var(--white-gray-color);
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer a {
+    color: rgb(2, 161, 121);
+}
+
+.footer p {
+    margin: 0;
+    padding: 3rem;
+}
+

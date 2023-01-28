@@ -24,3 +24,8 @@
 .menu-spacing{
     height: 65px;
 }
+
+body .tamanho-inteiro{
+    width: 100%;
+    flex: 1 1 100%;
+}
